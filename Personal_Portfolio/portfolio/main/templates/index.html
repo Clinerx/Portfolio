@@ -8,5 +8,38 @@
         <h2>Welcome to My Creative World</h2>
         <p>I'm Chris Daniel, a passionate developer and innovator. Dive into my portfolio to explore the projects I've crafted with creativity and precision. Let's build the future together!</p>
 
+        <div class="skills">
+            <h3>Skills & Expertise</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Frontend: HTML, CSS, JavaScript</li>
+                <li>Backend: Python, Django</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Design</li>
+                <li>Database Management: SQL, PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="cta">
+            <h3>Ready to Start a Project?</h3>
+            <p>Let's discuss your ideas and bring them to life!</p>
+            <a href="{% url 'contact' %}" class="button">Get in Touch</a>
+        </div>
+
+        <div class="projects">
+            <h3>Recent Projects</h3>
+            <div class="project">
+                <h4>Project 1: Blogging Platform</h4>
+                <p>Developed a dynamic blogging platform using Django, allowing users to create, edit, and delete blog posts.</p>
+            </div>
+            <div class="project">
+                <h4>Project 2: E-commerce Website</h4>
+                <p>Designed and built an e-commerce website using Django and Bootstrap. Integrated payment gateway for seamless transactions.</p>
+            </div>
+            <div class="project">
+                <h4>Project 3: Task Management System</h4>
+                <p>Created a task management system using Django and JavaScript. Implemented real-time updates using WebSockets.</p>
+            </div>
+        </div>
     </section>
 {% endblock %}
